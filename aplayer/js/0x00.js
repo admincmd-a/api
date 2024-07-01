@@ -1,4 +1,3 @@
-// 0x00.js
 [
     {
         name: 'Grow Slowly',
