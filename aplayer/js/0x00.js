@@ -1,4 +1,17 @@
-[
+const ap = new APlayer({
+    container: document.getElementById('player'),
+    mini: false,
+    autoplay: false,
+    theme: '#FADFA3',
+    loop: 'all',
+    order: 'random',
+    preload: 'auto',
+    volume: 0.7,
+    mutex: true,
+    listFolded: false,
+    listMaxHeight: 90,
+    lrcType: 3,
+    audio: [
     {
         name: 'Grow Slowly',
         artist: '井口裕香',
@@ -217,3 +230,5 @@
         lrc: 'https://npm.elemecdn.com/musiccdn-ariasaka/lyric/横竖撇点折.lrc',
     }
 ]
+
+});
