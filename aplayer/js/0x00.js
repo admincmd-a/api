@@ -1,7 +1,4 @@
-const ap = new APlayer({
-    container: document.getElementById('player'),
-    fixed: true,
-    audio: [
+[
     {
         name: 'Grow Slowly',
         artist: '井口裕香',
@@ -220,5 +217,3 @@ const ap = new APlayer({
         lrc: 'https://npm.elemecdn.com/musiccdn-ariasaka/lyric/横竖撇点折.lrc',
     }
 ]
-
-});
